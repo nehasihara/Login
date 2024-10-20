@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ Test</title>
+</head>
+<body>
+    <h2>Question {{ question_index + 1 }}</h2>
+    <form action="{{ url_for('show_question') }}" method="POST">
+        <p>{{ question[1] }}</p>
+        <input type="radio" name="answer" value="1"> {{ question[2] }}<br>
+        <input type="radio" name="answer" value="2"> {{ question[3] }}<br>
+        <input type="radio" name="answer" value="3"> {{ question[4] }}<br>
+        <input type="radio" name="answer" value="4"> {{ question[5] }}<br>
+
+        <input type="hidden" name="time_taken" value="10">  <!-- Replace this with time logic -->
+
+        <button type="submit">Next</button>
+    </form>
+</body>
+</html>
+

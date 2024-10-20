@@ -1,0 +1,87 @@
+/* Basic reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header section styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1f2d46;
+    color: white;
+}
+
+
+
+.certification {
+    text-align: right;
+}
+
+.certification h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.certification span {
+    font-size: 14px;
+    color: #ffcc00; /* Star color */
+}
+
+/* Terms and conditions container */
+.terms-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.update-date {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.terms-container p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.terms-list {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.terms-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f2d46;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
